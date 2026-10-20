@@ -1,21 +1,32 @@
-## 👨‍💻 Seja bem vindo ao repositorio a qual dedico meu portfólio 👨‍💻
-![Portfólio](https://user-images.githubusercontent.com/77738183/174460185-191e9bc5-8378-4884-97fd-cc827ec8cfd3.png)
+# Luiz Gusttavo
 
-✨ Fico feliz com uma avaliação seja ela positiva ou não, toda e qualquer opnião é muito benefica. ✨
+**Full-Stack Developer** · Ibirité, MG
 
-💗 Toda e qualquer contribuição é super bem vinda. 💗
+Bem-vindo ao repositório do meu portfólio.
 
-### Status atual do portfólio:
-### 🛠  Reestilização estrutural e simplificação do codigo estão sendo desenvolvidos, atualmente o site se encontra incompleto.
+Sou desenvolvedor Full Stack e trabalho com soluções web end-to-end, automação (RPA) e integrações de sistemas. Tenho experiência corporativa em dados e inteligência de mercado, com Cloud/DevOps para construir arquiteturas escaláveis.
 
-- ⚙ Direcionamento de links e algumas funcionalidades propositalmente "quebradas".
+## Sobre o portfólio
 
-- ✅ ON-LINE. (25/03/2023) https://luiz-insert.github.io/Luiz-insert2.0/ 
+Um site simples e direto, em preto e branco, com modo claro e escuro. Reúne:
 
-- 🎨Criação de estilos especificos voltados a diferentes telas concluido (20/06).
+- **Sobre e contato**, com um fluxograma da arquitetura com que costumo trabalhar
+- **Vitrine** de projetos, com busca e filtro por habilidade
+- **Experiência** profissional
+- **Formação** e cursos
 
-### Informaçoes adicionais:
+## Projetos em destaque
 
-- 💻Tv Media queries (Funcional/otimizado).
-- 📺Desktop/laptop Media queries (Funcional/otimizado).
-- 📱 Mobile Media queries (Funcional/otimizado).
+- [AutoSegment](https://interface.coddara.com/autosegment/): hub de automação para gerenciar e acompanhar automações em servidores privados
+- [Spotify Card](https://spotify-card-livid.vercel.app/): consome a API do Spotify e mostra as músicas mais escutadas
+- [Coddara Analytics](https://analytics.coddara.com/): plataforma de analytics open source
+- ZapCharge: landing page fictícia de carros elétricos
+
+## Código aberto
+
+O código fica aberto para quem quiser dar uma olhada ou se inspirar. Feito com Vite e JavaScript puro.
+
+## Contato
+
+- GitHub: [Luiz-insert](https://github.com/Luiz-insert)
+- E-mail: Lgusttavo29@gmail.com
