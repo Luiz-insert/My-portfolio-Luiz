@@ -25,6 +25,9 @@ export const stats = [
 export const about =
   'Full Stack focado em soluções web end-to-end, automação (RPA) e integrações. Experiência corporativa em dados e inteligência de mercado, com Cloud/DevOps para arquiteturas escaláveis.'
 
+// Capturas desktop (1440x900) em public/img/projects/. Para trocar ou adicionar, edite a lista `images` de cada projeto.
+const shot = (file) => ({ src: `${import.meta.env.BASE_URL}img/projects/${file}`, kind: 'desktop' })
+
 export const showcase = [
   {
     name: 'AutoSegment',
@@ -32,12 +35,14 @@ export const showcase = [
       'Hub de automação assíncrono: plataforma multi-tenant em nuvem que orquestra processos automatizados em servidores dedicados, com controle do ciclo de vida (iniciar, pausar, editar parâmetros) e monitoramento de status em tempo real.',
     skills: ['React', 'Node.js', 'Python', 'Docker', 'AWS', 'MongoDB (NoSQL)'],
     url: 'https://interface.coddara.com/autosegment/',
+    images: [shot('autosegment-1.png')],
   },
   {
     name: 'Spotify Card',
     description: 'Forma simples de consumir a API do Spotify: ao fazer login, retorna as músicas mais escutadas pelo usuário.',
     skills: ['JavaScript', 'HTML', 'CSS'],
     url: 'https://spotify-card-livid.vercel.app/',
+    images: [shot('spotify-card-2.png')],
   },
   {
     name: 'Coddara Analytics',
@@ -45,12 +50,14 @@ export const showcase = [
       'Plataforma de web analytics open source, nos moldes do Vercel Analytics e do PostHog: basta colar o script no site. Coleta assíncrona de navegação e dashboards com métricas de visitas, conversão e estabilidade.',
     skills: ['JavaScript', 'Node.js', 'PostgreSQL (SQL)'],
     url: 'https://analytics.coddara.com/',
+    images: [shot('coddara-analytics-1.png'), shot('coddara-analytics-2.png')],
   },
   {
     name: 'ZapCharge',
     description: 'Landing page fictícia de um produto fictício de carros elétricos, criada para demonstrar habilidade na construção de páginas únicas.',
     skills: ['HTML', 'CSS', 'JavaScript'],
-    url: '#', // TODO: trocar pela URL do ZapCharge
+    url: 'https://zapcharge.vercel.app/',
+    images: [shot('zapcharge-1.png')],
   },
 ]
 
@@ -105,6 +112,6 @@ export const languages = ['Português — Nativo', 'Inglês — Básico', 'CNH B
 
 export const contacts = [
   { label: 'GitHub', url: 'https://github.com/Luiz-insert', icon: `${import.meta.env.BASE_URL}img/github-brands.svg` },
-  { label: 'LinkedIn', url: 'https://www.linkedin.com/', icon: `${import.meta.env.BASE_URL}img/linkedin-brands.svg` },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/luiz-gusttavo-teixeira-braga-2907992a7/', icon: `${import.meta.env.BASE_URL}img/linkedin-brands.svg` },
   { label: 'WhatsApp', url: 'https://wa.me/5531999036769', icon: `${import.meta.env.BASE_URL}img/whatsapp-brands.svg` },
 ]
